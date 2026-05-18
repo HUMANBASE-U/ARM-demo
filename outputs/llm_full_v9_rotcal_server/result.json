@@ -1,0 +1,57 @@
+{
+  "success_rate": 1.0,
+  "episodes": 8,
+  "grasp_checkpoint": "checkpoints/grasp_visual_actor_v4_rotcal.pt",
+  "place_checkpoint": "checkpoints/move_to_visual_actor_v3.pt",
+  "metrics_curve": "outputs/llm_full_v9_rotcal/metrics_curve.png",
+  "results": [
+    {
+      "target_corner": "top_left",
+      "success": true,
+      "steps": 103,
+      "video": "outputs/llm_full_v9_rotcal/videos/ep_000.mp4"
+    },
+    {
+      "target_corner": "top_right",
+      "success": true,
+      "steps": 103,
+      "video": "outputs/llm_full_v9_rotcal/videos/ep_001.mp4"
+    },
+    {
+      "target_corner": "bottom_left",
+      "success": true,
+      "steps": 103,
+      "video": "outputs/llm_full_v9_rotcal/videos/ep_002.mp4"
+    },
+    {
+      "target_corner": "bottom_right",
+      "success": true,
+      "steps": 103,
+      "video": "outputs/llm_full_v9_rotcal/videos/ep_003.mp4"
+    },
+    {
+      "target_corner": "top_left",
+      "success": true,
+      "steps": 103,
+      "video": "outputs/llm_full_v9_rotcal/videos/ep_004.mp4"
+    },
+    {
+      "target_corner": "top_right",
+      "success": true,
+      "steps": 103,
+      "video": "outputs/llm_full_v9_rotcal/videos/ep_005.mp4"
+    },
+    {
+      "target_corner": "bottom_left",
+      "success": true,
+      "steps": 103,
+      "video": "outputs/llm_full_v9_rotcal/videos/ep_006.mp4"
+    },
+    {
+      "target_corner": "bottom_right",
+      "success": true,
+      "steps": 103,
+      "video": "outputs/llm_full_v9_rotcal/videos/ep_007.mp4"
+    }
+  ]
+}

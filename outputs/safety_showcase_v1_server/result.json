@@ -1,0 +1,7 @@
+{
+  "video": "outputs/safety_showcase_v1/videos/safety_showcase_stop.mp4",
+  "stopped": true,
+  "max_risk": 1.0,
+  "activate_step": 75,
+  "risk_threshold": 0.52
+}

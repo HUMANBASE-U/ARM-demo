@@ -1,0 +1,110 @@
+{
+  "episodes": 8,
+  "success_rate": 0.0,
+  "results": [
+    {
+      "instruction": "Put the cube in top left corner",
+      "success": false,
+      "target_corner": "top_left",
+      "steps": 640,
+      "video_path": "outputs/llm_meta/videos/ep_000.mp4",
+      "log_path": "outputs/llm_meta/logs/ep_000.json",
+      "final_cube_pos": [
+        -0.0007480002823285758,
+        0.0536426417529583,
+        0.01999989151954651
+      ]
+    },
+    {
+      "instruction": "Put the cube in top right corner",
+      "success": false,
+      "target_corner": "top_right",
+      "steps": 640,
+      "video_path": "outputs/llm_meta/videos/ep_001.mp4",
+      "log_path": "outputs/llm_meta/logs/ep_001.json",
+      "final_cube_pos": [
+        0.05789675936102867,
+        -0.0444498285651207,
+        0.019999925047159195
+      ]
+    },
+    {
+      "instruction": "Put the cube in bottom left corner",
+      "success": false,
+      "target_corner": "bottom_left",
+      "steps": 640,
+      "video_path": "outputs/llm_meta/videos/ep_002.mp4",
+      "log_path": "outputs/llm_meta/logs/ep_002.json",
+      "final_cube_pos": [
+        0.022937292233109474,
+        -0.023797063156962395,
+        0.019999880343675613
+      ]
+    },
+    {
+      "instruction": "Put the cube in bottom right corner",
+      "success": false,
+      "target_corner": "bottom_right",
+      "steps": 640,
+      "video_path": "outputs/llm_meta/videos/ep_003.mp4",
+      "log_path": "outputs/llm_meta/logs/ep_003.json",
+      "final_cube_pos": [
+        -0.099146768450737,
+        -0.07888433337211609,
+        0.019999925047159195
+      ]
+    },
+    {
+      "instruction": "把cube放到左上角",
+      "success": false,
+      "target_corner": "top_left",
+      "steps": 640,
+      "video_path": "outputs/llm_meta/videos/ep_004.mp4",
+      "log_path": "outputs/llm_meta/logs/ep_004.json",
+      "final_cube_pos": [
+        0.011926667764782906,
+        0.011817088350653648,
+        0.019999893382191658
+      ]
+    },
+    {
+      "instruction": "把cube放到右上角",
+      "success": false,
+      "target_corner": "top_right",
+      "steps": 640,
+      "video_path": "outputs/llm_meta/videos/ep_005.mp4",
+      "log_path": "outputs/llm_meta/logs/ep_005.json",
+      "final_cube_pos": [
+        0.06605073809623718,
+        -0.0747782438993454,
+        0.02000000700354576
+      ]
+    },
+    {
+      "instruction": "把cube放到左下角",
+      "success": false,
+      "target_corner": "bottom_left",
+      "steps": 640,
+      "video_path": "outputs/llm_meta/videos/ep_006.mp4",
+      "log_path": "outputs/llm_meta/logs/ep_006.json",
+      "final_cube_pos": [
+        0.04273948818445206,
+        0.013253459706902504,
+        0.019999932497739792
+      ]
+    },
+    {
+      "instruction": "把cube放到右下角",
+      "success": false,
+      "target_corner": "bottom_right",
+      "steps": 640,
+      "video_path": "outputs/llm_meta/videos/ep_007.mp4",
+      "log_path": "outputs/llm_meta/logs/ep_007.json",
+      "final_cube_pos": [
+        0.006986379623413086,
+        -0.06024012714624405,
+        0.019999910145998
+      ]
+    }
+  ]
+}

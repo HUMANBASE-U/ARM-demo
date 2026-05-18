@@ -1,0 +1,13 @@
+numpy<2
+pyyaml
+tqdm
+matplotlib
+imageio
+imageio-ffmpeg
+opencv-python<4.12
+requests
+torch
+torchvision
+mani_skill
+pytorch_kinematics_ms
+gymnasium

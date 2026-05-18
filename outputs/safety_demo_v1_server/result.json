@@ -1,0 +1,30 @@
+{
+  "risk_threshold": 0.52,
+  "horizon_steps": 30,
+  "summary": [
+    {
+      "episode": 0,
+      "stopped": true,
+      "max_risk": 1.0,
+      "video": "outputs/safety_demo_v1/videos/safety_ep_000.mp4"
+    },
+    {
+      "episode": 1,
+      "stopped": true,
+      "max_risk": 1.0,
+      "video": "outputs/safety_demo_v1/videos/safety_ep_001.mp4"
+    },
+    {
+      "episode": 2,
+      "stopped": true,
+      "max_risk": 1.0,
+      "video": "outputs/safety_demo_v1/videos/safety_ep_002.mp4"
+    },
+    {
+      "episode": 3,
+      "stopped": true,
+      "max_risk": 1.0,
+      "video": "outputs/safety_demo_v1/videos/safety_ep_003.mp4"
+    }
+  ]
+}

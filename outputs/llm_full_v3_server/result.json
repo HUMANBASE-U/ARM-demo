@@ -1,0 +1,65 @@
+{
+  "success_rate": 0.0,
+  "episodes": 8,
+  "grasp_visual_checkpoint": "checkpoints/move_to_visual_actor_v3.pt",
+  "place_visual_checkpoint": "checkpoints/move_to_visual_actor_v3.pt",
+  "metrics_curve": "outputs/llm_full_v3/metrics_curve.png",
+  "results": [
+    {
+      "instruction": "把cube抓起来，放到左上角",
+      "target_corner": "top_left",
+      "success": false,
+      "steps": 405,
+      "video": "outputs/llm_full_v3/videos/ep_000.mp4"
+    },
+    {
+      "instruction": "把cube抓起来，放到右上角",
+      "target_corner": "top_right",
+      "success": false,
+      "steps": 404,
+      "video": "outputs/llm_full_v3/videos/ep_001.mp4"
+    },
+    {
+      "instruction": "把cube抓起来，放到左下角",
+      "target_corner": "bottom_left",
+      "success": false,
+      "steps": 405,
+      "video": "outputs/llm_full_v3/videos/ep_002.mp4"
+    },
+    {
+      "instruction": "把cube抓起来，放到右下角",
+      "target_corner": "bottom_right",
+      "success": false,
+      "steps": 402,
+      "video": "outputs/llm_full_v3/videos/ep_003.mp4"
+    },
+    {
+      "instruction": "Pick up cube then place top left",
+      "target_corner": "top_left",
+      "success": false,
+      "steps": 404,
+      "video": "outputs/llm_full_v3/videos/ep_004.mp4"
+    },
+    {
+      "instruction": "Pick up cube then place top right",
+      "target_corner": "top_right",
+      "success": false,
+      "steps": 405,
+      "video": "outputs/llm_full_v3/videos/ep_005.mp4"
+    },
+    {
+      "instruction": "Pick up cube then place bottom left",
+      "target_corner": "bottom_left",
+      "success": false,
+      "steps": 404,
+      "video": "outputs/llm_full_v3/videos/ep_006.mp4"
+    },
+    {
+      "instruction": "Pick up cube then place bottom right",
+      "target_corner": "bottom_right",
+      "success": false,
+      "steps": 405,
+      "video": "outputs/llm_full_v3/videos/ep_007.mp4"
+    }
+  ]
+}

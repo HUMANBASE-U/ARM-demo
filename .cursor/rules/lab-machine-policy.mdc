@@ -1,0 +1,54 @@
+---
+description: Enforce remote-first lab workflow and safe execution
+alwaysApply: true
+---
+
+# Lab Machine Policy (Always Apply)
+
+## Primary Rule
+
+All experiment workloads must run on the lab server, not on local Windows.
+
+Experiment workloads include:
+
+- data collection from simulation environments,
+- model training,
+- evaluation,
+- rollout/video generation,
+- batch jobs.
+
+## Local Windows Allowed Scope
+
+- code editing,
+- static checks,
+- documentation updates,
+- git sync operations.
+
+If a task might rely on unavailable local environment dependencies (e.g., ManiSkill/GPU simulation runtime), do not run it locally.
+
+## Mandatory Pre-Run Checklist
+
+Before executing run commands, report:
+
+1. execution host (server/local),
+2. command goal,
+3. expected runtime,
+4. timeout/abort threshold.
+
+## Timeout and Safety
+
+- Long commands must include explicit timeout handling.
+- For remote-heavy stages (dataset collection, model training, long evaluations), use relaxed timeout windows appropriate for lab GPUs (dual 4090 class machines).
+- If a command exceeds expected duration or appears stalled, stop safely and report status.
+- Prefer smaller smoke tests on the correct host over long uncertain runs.
+
+## Progress Reporting
+
+Provide frequent short status updates while working through multi-step tasks.
+
+## Safety and Change Logging
+
+- No destructive operations.
+- No unrelated file/system modifications.
+- If non-code environment/system/server changes are made, append timestamped notes to `changes-log.txt`.
+- If login credentials are unavailable during remote execution, consult `C:\Users\yaoda\Desktop\HOW-TO-USE-LAB-MACHINE.txt`.

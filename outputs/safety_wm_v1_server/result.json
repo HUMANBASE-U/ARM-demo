@@ -1,0 +1,18 @@
+{
+  "checkpoint": "checkpoints/safety_wm_v1.pt",
+  "loss_curve": "outputs/safety_wm_v1/loss_curves.png",
+  "dataset_meta": {
+    "num_samples": 2940,
+    "num_risky_labels": 644,
+    "action_dim": 7,
+    "image_size": 64,
+    "horizon_steps": 30
+  },
+  "final_losses": {
+    "wm_total": 0.05320357871444329,
+    "wm_pred": 0.02375507318293271,
+    "wm_latent": 0.011266396866868372,
+    "risk_bce": 0.1291954133497632,
+    "safety_total": 0.18239899271208307
+  }
+}

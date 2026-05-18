@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "skill": "move_to",
+      "checkpoint": "checkpoints/meta_skills/move_to.pt",
+      "success_ema": 1.1341696374605465e-05,
+      "steps": 40960
+    },
+    {
+      "skill": "descend",
+      "checkpoint": "checkpoints/meta_skills/descend.pt",
+      "success_ema": 0.0023398398924344443,
+      "steps": 40960
+    },
+    {
+      "skill": "ascend",
+      "checkpoint": "checkpoints/meta_skills/ascend.pt",
+      "success_ema": 0.005495146374971449,
+      "steps": 40960
+    },
+    {
+      "skill": "open_gripper",
+      "checkpoint": "checkpoints/meta_skills/open_gripper.pt",
+      "success_ema": 0.1080454094264236,
+      "steps": 40960
+    },
+    {
+      "skill": "close_gripper",
+      "checkpoint": "checkpoints/meta_skills/close_gripper.pt",
+      "success_ema": 0.12303316581004542,
+      "steps": 40960
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "episodes": 4,
+  "success_rate": 0.0,
+  "results": [
+    {
+      "success": false,
+      "instruction": "Put the cube in the top left corner",
+      "target_corner": "top_left",
+      "final_cube_pos": [
+        -0.06844659894704819,
+        -0.015403909608721733,
+        0.020000118762254715
+      ],
+      "steps": 56,
+      "video_path": "outputs/llm_corner/videos/episode_Put_the_cube_in_the__7270.mp4"
+    },
+    {
+      "success": false,
+      "instruction": "Put the cube in the top right corner",
+      "target_corner": "top_right",
+      "final_cube_pos": [
+        -0.003104694653302431,
+        -0.11182109266519547,
+        0.019999943673610687
+      ],
+      "steps": 56,
+      "video_path": "outputs/llm_corner/videos/episode_Put_the_cube_in_the__860.mp4"
+    },
+    {
+      "success": false,
+      "instruction": "Put the cube in the bottom left corner",
+      "target_corner": "bottom_left",
+      "final_cube_pos": [
+        0.0652855858206749,
+        -0.04034922644495964,
+        0.019999898970127106
+      ],
+      "steps": 54,
+      "video_path": "outputs/llm_corner/videos/episode_Put_the_cube_in_the__5390.mp4"
+    },
+    {
+      "success": false,
+      "instruction": "Put the cube in the bottom right corner",
+      "target_corner": "bottom_right",
+      "final_cube_pos": [
+        -0.15803787112236023,
+        -0.03185761347413063,
+        0.01999993622303009
+      ],
+      "steps": 44,
+      "video_path": "outputs/llm_corner/videos/episode_Put_the_cube_in_the__5191.mp4"
+    }
+  ]
+}

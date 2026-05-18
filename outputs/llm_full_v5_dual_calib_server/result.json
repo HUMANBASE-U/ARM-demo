@@ -1,0 +1,57 @@
+{
+  "success_rate": 0.5,
+  "episodes": 8,
+  "grasp_checkpoint": "checkpoints/grasp_visual_actor_v1.pt",
+  "place_checkpoint": "checkpoints/move_to_visual_actor_v3.pt",
+  "metrics_curve": "outputs/llm_full_v5_dual_calib/metrics_curve.png",
+  "results": [
+    {
+      "target_corner": "top_left",
+      "success": false,
+      "steps": 241,
+      "video": "outputs/llm_full_v5_dual_calib/videos/ep_000.mp4"
+    },
+    {
+      "target_corner": "top_right",
+      "success": false,
+      "steps": 241,
+      "video": "outputs/llm_full_v5_dual_calib/videos/ep_001.mp4"
+    },
+    {
+      "target_corner": "bottom_left",
+      "success": false,
+      "steps": 241,
+      "video": "outputs/llm_full_v5_dual_calib/videos/ep_002.mp4"
+    },
+    {
+      "target_corner": "bottom_right",
+      "success": true,
+      "steps": 283,
+      "video": "outputs/llm_full_v5_dual_calib/videos/ep_003.mp4"
+    },
+    {
+      "target_corner": "top_left",
+      "success": true,
+      "steps": 219,
+      "video": "outputs/llm_full_v5_dual_calib/videos/ep_004.mp4"
+    },
+    {
+      "target_corner": "top_right",
+      "success": false,
+      "steps": 241,
+      "video": "outputs/llm_full_v5_dual_calib/videos/ep_005.mp4"
+    },
+    {
+      "target_corner": "bottom_left",
+      "success": true,
+      "steps": 155,
+      "video": "outputs/llm_full_v5_dual_calib/videos/ep_006.mp4"
+    },
+    {
+      "target_corner": "bottom_right",
+      "success": true,
+      "steps": 219,
+      "video": "outputs/llm_full_v5_dual_calib/videos/ep_007.mp4"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "success_rate": 0.0,
+  "checkpoint": "checkpoints/grasp_visual_actor_v3_leftface_alignlock.pt",
+  "loss_curve": "outputs/grasp_visual_v3_leftface_alignlock/loss_curves.png",
+  "results": [
+    {
+      "episode": 0,
+      "success": false,
+      "steps": 180,
+      "video": "outputs/grasp_visual_v3_leftface_alignlock/videos/grasp_eval_000.mp4"
+    },
+    {
+      "episode": 1,
+      "success": false,
+      "steps": 180,
+      "video": "outputs/grasp_visual_v3_leftface_alignlock/videos/grasp_eval_001.mp4"
+    },
+    {
+      "episode": 2,
+      "success": false,
+      "steps": 180,
+      "video": "outputs/grasp_visual_v3_leftface_alignlock/videos/grasp_eval_002.mp4"
+    },
+    {
+      "episode": 3,
+      "success": false,
+      "steps": 180,
+      "video": "outputs/grasp_visual_v3_leftface_alignlock/videos/grasp_eval_003.mp4"
+    },
+    {
+      "episode": 4,
+      "success": false,
+      "steps": 180,
+      "video": "outputs/grasp_visual_v3_leftface_alignlock/videos/grasp_eval_004.mp4"
+    },
+    {
+      "episode": 5,
+      "success": false,
+      "steps": 180,
+      "video": "outputs/grasp_visual_v3_leftface_alignlock/videos/grasp_eval_005.mp4"
+    },
+    {
+      "episode": 6,
+      "success": false,
+      "steps": 180,
+      "video": "outputs/grasp_visual_v3_leftface_alignlock/videos/grasp_eval_006.mp4"
+    },
+    {
+      "episode": 7,
+      "success": false,
+      "steps": 180,
+      "video": "outputs/grasp_visual_v3_leftface_alignlock/videos/grasp_eval_007.mp4"
+    }
+  ]
+}
