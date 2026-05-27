@@ -1,9 +1,6 @@
 # ARM-demo Agent Operating Guide
 
-This repository follows a strict split workflow:
-
-- Local Windows machine: code editing, Git commit/push/pull, docs updates.
-- Lab server: all experiment commands (data collection, training, evaluation, video generation).
+This repository is worked on directly from the current Codex workspace unless the user explicitly requests a different machine or workflow.
 
 ## User Context
 
@@ -13,27 +10,25 @@ This repository follows a strict split workflow:
 
 ## Non-Negotiable Execution Rules
 
-1. Never run experiment workloads on local Windows by default.
+1. Do not launch expensive experiment workloads unless the user has requested or approved them.
 2. Before any run command, state:
-   - where the command runs (server/local),
+   - where the command runs,
    - purpose,
    - expected duration,
    - timeout/cancel policy.
 3. For long-running commands:
    - set explicit timeout,
-   - for remote training/experiment phases, use relaxed timeout budgets (do not use aggressive short limits),
+   - for training/experiment phases, use relaxed timeout budgets (do not use aggressive short limits),
    - if command exceeds threshold or stalls, stop safely and report.
 4. Provide frequent progress updates during execution.
 5. Avoid destructive operations and never touch unrelated files.
-6. If server password is missing/forgotten, check `C:\Users\yaoda\Desktop\HOW-TO-USE-LAB-MACHINE.txt` first.
 
-## Remote-First Workflow
+## Workflow
 
-1. Edit code locally in this repository.
-2. Push changes to GitHub.
-3. SSH to lab server and pull latest code.
-4. Run experiments on server only.
-5. Save artifacts (plots/videos/logs), commit, and sync back.
+1. Edit code in this repository.
+2. Run lightweight checks locally in the current workspace when appropriate.
+3. Use remote machines only when the user explicitly asks for remote execution or when the task clearly requires it.
+4. Save relevant artifacts such as plots, videos, and logs in the project when they are part of the requested work.
 
 ## Logging Policy
 
